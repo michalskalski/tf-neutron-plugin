@@ -25,7 +25,8 @@ resource_model_map = standard_attr.get_standard_attr_resource_model_map()
 class TagPlugin(tagging.TagPluginBase):
     """Implementation of the Neutron Tag Service Plugin."""
 
-    supported_extension_aliases = ['standard-attr-tag']
+    supported_extension_aliases = ['tag', 'tag-ext', 'standard-attr-tag']
+
 
     __filter_validation_support = True
 
